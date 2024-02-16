@@ -68,7 +68,7 @@
     </script>
 </head>
 
-<body class="flex flex-col items-center justify-center font-sans antialiased bg-white dark:bg-black text-black dark:text-white">
+<body class="flex flex-col items-center font-sans antialiased bg-white dark:bg-black text-black dark:text-white">
     <main class="flex flex-col flex-grow items-center justify-center max-w-6xl m-safe-offset-4 px-4 py-8 gap-4 text-center">
         <div>
             <picture>
