@@ -82,7 +82,7 @@
         </div>
         <h1 class="font-light text-4xl">Sabar ya, kamu kemungkinan besar bisa makan siang gratis dalam <strong id="countdown" class="font-semibold"></strong>!</h1>
         <div class="flex gap-2">
-            <a href="{{ assets('Makan Siang Gratis.ics') }}" class="bg-rc-blue-50 dark:bg-rc-blue-900 hover:bg-white dark:hover:bg-dm-blue-800 border-inset  border-2 border-dm-blue-300 ease-out duration-200 will-change-auto hover:will-change-scroll  text-black dark:text-white  accent-gr-blue-500 dark:accent-dm-blue-400 h-min px-4 py-2 rounded-full" data-r-search-button="true">
+            <a href="/assets/Makan%20Siang%20Gratis.ics" class="bg-rc-blue-50 dark:bg-rc-blue-900 hover:bg-white dark:hover:bg-dm-blue-800 border-inset  border-2 border-dm-blue-300 ease-out duration-200 will-change-auto hover:will-change-scroll  text-black dark:text-white  accent-gr-blue-500 dark:accent-dm-blue-400 h-min px-4 py-2 rounded-full" data-r-search-button="true">
                 Tambahkan ke kalender
             </a>
             <button id="aTkd0f-share-menu-open-share-sheet" class="bg-rc-blue-50 dark:bg-rc-blue-900 hover:bg-white dark:hover:bg-dm-blue-800 border-inset  border-2 border-dm-blue-300 ease-out duration-200 will-change-auto hover:will-change-scroll  text-black dark:text-white  accent-gr-blue-500 dark:accent-dm-blue-400 h-min px-4 py-2 rounded-full" data-r-search-button="true">
