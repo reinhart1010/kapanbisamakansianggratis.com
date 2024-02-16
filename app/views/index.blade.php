@@ -37,7 +37,7 @@
     <link rel="stylesheet" href="{{ ViewsPath('css/app.css') }}">
 
     <link rel="stylesheet" href="https://reinhart1010.github.io/nacelle/nacelle.lite.min.css">
-    <script src="{{ assets('js/countdown.min.js') }}"></script>
+    <script src="assets/js/countdown.min.js"></script>
     <script>
         /* Imperative HTML */
         var now = new Date();
