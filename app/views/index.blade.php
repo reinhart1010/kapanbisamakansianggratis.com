@@ -31,7 +31,7 @@
     <meta name="theme-color" content="#002032" media="(prefers-color-scheme: dark)">
 
     {{-- assets() points to the public/assets folder --}}
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
 
     {{-- ViewsPath() points to app/views --}}
     <link rel="stylesheet" href="{{ ViewsPath('css/app.css') }}">
