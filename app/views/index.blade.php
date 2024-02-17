@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="id">
 <?php
+    use Jenssegers\Agent\Agent;
+    $agent = new Agent();
+
     $now = new DateTime();
     $target_date_iso = "2029-10-16T12:00:00+08:00";
     $target_date = new DateTime($target_date_iso);
@@ -8,14 +11,20 @@
     $diff_date_text = $diff_date->days;
     $is_passed = $diff_date->format("%R") == "-";
 
-    if ($is_passed) {
-        // Mode selebrasi
-        $title = "Waktunya makan siang gratis!";
-        $description = "Eh sudah jam siang di Hari Pangan Sedunia! Selamat makan!";
-    } else {
+    if ($agent->isRobot()) {
         // Site Metadata
-        $title = "Makan siang gratis tinggal tunggu $diff_date_text hari!";
-        $description = "";
+        $title = "Kapan bisa makan siang gratis?";
+        $description = "Cek kapan akhirnya Anda bisa makan siang gratis, rakyat jelata!";
+    } else {
+        if ($is_passed) {
+            // Mode selebrasi
+            $title = "Waktunya makan siang gratis!";
+            $description = "Eh sudah jam siang di Hari Pangan Sedunia! Selamat makan!";
+        } else {
+            // Site Metadata
+            $title = "Makan siang gratis tinggal tunggu $diff_date_text hari!";
+            $description = "Cek kapan akhirnya Anda bisa makan siang gratis, rakyat jelata!";
+        }
     }
 ?>
 <head>

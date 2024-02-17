@@ -28,7 +28,8 @@
         "leafs/cors": "*",
         "leafs/auth": "*",
         "leafs/db": "*",
-        "leafs/vite": "^0.1.0"
+        "leafs/vite": "^0.1.0",
+        "jenssegers/agent": "*"
     },
     "require-dev": {
         "fakerphp/faker": "^1.16"
