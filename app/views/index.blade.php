@@ -42,12 +42,12 @@
     <!-- Stylesheets -->
     <?php /* echo vite('css/app.css'); */ ?>
     {{-- <link rel="stylesheet" href="{{ assets('css/styles.css') }}"> --}}
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="stylesheet" href="https://reinhart1010.github.io/nacelle/nacelle.lite.min.css">
 
     <!-- Scripts -->
     {{-- <script src="{{ assets('js/countdown.min.js') }}"></script> --}}
-    <script src="/js/countdown.min.js"></script>
+    <script src="/assets/js/countdown.min.js"></script>
     <script>
         /* Imperative HTML */
         var now = new Date();
