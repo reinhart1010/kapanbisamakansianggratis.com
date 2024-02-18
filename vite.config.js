@@ -16,7 +16,7 @@ export default defineConfig(({ command, mode, isSsrBuild, isPreview }) => {
     // Production mode
     return {
       build: {
-        outDir: "./public/build/build",
+        outDir: "./build/build",
       },
       plugins: [
         leaf({
