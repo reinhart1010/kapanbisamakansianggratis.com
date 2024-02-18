@@ -39,14 +39,12 @@
     <meta name="theme-color" content="#D0F5FF" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#002032" media="(prefers-color-scheme: dark)">
 
-    {{-- assets() points to the public/assets folder --}}
-    <link rel="stylesheet" href="/assets/css/styles.css">
-
-    {{-- ViewsPath() points to app/views --}}
-    <link rel="stylesheet" href="{{ ViewsPath('css/app.css') }}">
-
+    <!-- Stylesheets -->
+    <?php echo vite('css/app.css'); ?>
     <link rel="stylesheet" href="https://reinhart1010.github.io/nacelle/nacelle.lite.min.css">
-    <script src="assets/js/countdown.min.js"></script>
+
+    <!-- Scripts -->
+    <script src="{{ assets('js/countdown.min.js') }}"></script>
     <script>
         /* Imperative HTML */
         var now = new Date();
@@ -77,7 +75,7 @@
     </script>
 </head>
 
-<body class="flex flex-col items-center font-sans antialiased bg-white dark:bg-black text-black dark:text-white">
+<body class="flex flex-col items-center min-h-screen font-sans antialiased bg-white dark:bg-black text-black dark:text-white">
     <main class="flex flex-col flex-grow items-center justify-center max-w-6xl m-safe-offset-4 px-4 py-8 gap-4 text-center">
         <div>
             <picture>

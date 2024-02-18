@@ -1,1 +1,18 @@
-/* hello world */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .border-inset {
+        border-style: inset;
+    }
+    .border-outset {
+        border-style: outset;
+    }
+    .font-semicondensed {
+        font-stretch: 87.5%;
+    }
+    .font-condensed {
+        font-stretch: 75%;
+    }
+}
