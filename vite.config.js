@@ -15,9 +15,9 @@ export default defineConfig(({ command, mode, isSsrBuild, isPreview }) => {
   } else {
     // Production mode
     return {
-      build: {
-        outDir: "./app/views/build/build",
-      },
+    //   build: {
+    //     outDir: "./app/views/build/build",
+    //   },
       plugins: [
         leaf({
           input: ['app/views/js/app.js', 'app/views/css/app.css'],

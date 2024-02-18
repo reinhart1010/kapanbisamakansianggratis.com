@@ -40,7 +40,8 @@
     <meta name="theme-color" content="#002032" media="(prefers-color-scheme: dark)">
 
     <!-- Stylesheets -->
-    <?php echo vite('css/app.css'); ?>
+    <?php /* echo vite('css/app.css'); */ ?>
+    <link rel="stylesheet" href="{{ assets('css/styles.css') }}">
     <link rel="stylesheet" href="https://reinhart1010.github.io/nacelle/nacelle.lite.min.css">
 
     <!-- Scripts -->
